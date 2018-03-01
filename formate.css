@@ -46,15 +46,6 @@ font-size: 0.7em;
 flex: 1 100%;
 }
 
-
-body		{ 
-border: none;
-max-width: 60em;
-margin: 0 auto;
-background-color: #F5F5F5; 
-}
-
-
 #logo img	{
 float: left;
 max-width: 75%;
