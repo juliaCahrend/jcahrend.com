@@ -1,0 +1,101 @@
+p	{
+font-family: sans-serif;
+line-height: 1.5em; 
+font-family: 'Anaheim', sans-serif;
+
+}
+
+h1, h2, h3 {
+font-family: 'Catamaran', sans-serif;
+letter-spacing: 0.2;	
+color: #181818;
+}
+
+a 	{
+font-size: 1em;
+text-decoration: none; 
+color: #181818 ;
+font-family: 'Catamaran', sans-serif;
+letter-spacing: 0.3;
+}
+
+img { 
+width: 100%; 
+height: auto 
+}
+
+
+a:visited { color: blue; }
+nav a:visited { color: #181818; }
+
+nav	{
+font-size: 0.7em;
+text-align: right;
+font-family: 'Catamaran', sans-serif;
+flex: 1 100%;
+clear: both;
+}
+
+nav a {
+	margin: 1em;
+}
+
+body		{ 
+border: none;
+max-width: 100em;
+margin: 3em;
+background-color: #F5F5F5; 
+}
+
+
+.columne2 {
+	width: 50%;
+	display: inline;
+	box-sizing: border-box;
+	float: left;
+	margin: 2em 0;
+}
+
+
+
+#logo figure	{
+float: left;
+}
+
+#liste a 	{
+font-size: 1.5em;
+}
+
+#liste li	{
+list-style-type: none;
+overflow: auto;
+text-align: center; 
+}
+
+#email li	{
+text-align: center;
+list-style-type: none;
+}
+
+
+footer {
+text-align: center;
+font-size: 0.7em;
+}
+
+#column2	{
+columns: 2 10em; column-gap: 1em; 
+}
+
+#cloumn3	{
+columns: 2 10em; column-gap: 1em; 
+}
+
+footer {
+text-align: center;
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 2em;
+list-style-type: none;
+}
