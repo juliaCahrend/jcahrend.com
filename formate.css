@@ -1,0 +1,70 @@
+body		{ 
+border: none;
+max-width: 100em;
+margin: 3em;
+background-color: #F5F5F5; 
+}
+
+nav	{
+font-size: 0.7em;
+text-align: right;
+font-family: 'Catamaran', sans-serif;
+flex: 1 100%;
+clear: right;
+margin: 1em;
+}
+
+
+p	{
+font-family: sans-serif;
+line-height: 1.5em; 
+font-family: 'Anaheim', sans-serif;
+
+}
+
+h1, h2, h3 {
+font-family: 'Catamaran', sans-serif;
+letter-spacing: 0.2;	
+color: #181818;
+}
+
+a 	{
+font-size: 1em;
+text-decoration: none; 
+color: #181818 ;
+font-family: 'Catamaran', sans-serif;
+letter-spacing: 0.3;
+}
+
+footer {
+text-align: center;
+position: absolute;
+bottom: 0;
+height: 2em;
+list-style-type: none;
+font-size: 0.7em;
+flex: 1 100%;
+}
+
+
+#logo img	{
+float: left;
+max-width: 75%;
+max-height: 75%;
+}
+
+
+#liste li {
+list-style-type: none;
+clear: both;
+text-align: center; 
+font-size: 1.5em;
+}
+
+.columne2 {
+	width: 50%;
+	display: inline;
+	box-sizing: border-box;
+	float: left;
+	margin: 2em 0;
+	}
