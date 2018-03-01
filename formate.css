@@ -19,10 +19,6 @@ font-family: 'Catamaran', sans-serif;
 letter-spacing: 0.3;
 }
 
-img { 
-width: 100%; 
-height: auto 
-}
 
 
 a:visited { color: blue; }
@@ -42,8 +38,8 @@ nav a {
 
 body		{ 
 border: none;
-max-width: 100em;
-margin: 3em;
+max-width: 60em;
+margin: 0 auto;
 background-color: #F5F5F5; 
 }
 
