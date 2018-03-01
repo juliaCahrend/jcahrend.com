@@ -1,7 +1,7 @@
 body		{ 
 border: none;
 max-width: 100em;
-margin: 3em;
+margin: 3em 10em;
 background-color: #F5F5F5; 
 }
 
@@ -67,6 +67,25 @@ text-align: center;
 font-size: 1.5em;
 }
 
+
+#menue_trans img {
+		float: left;
+		width: 100%;
+	
+}
+
+
+#player iframe {
+	float: right;
+	width: 100%;
+}
+
+.player {
+
+	width: 100%;
+
+}
+
 .columne2 {
 	width: 50%;
 	display: inline;
@@ -75,6 +94,18 @@ font-size: 1.5em;
 	margin: 2em 0;
 	}
 
+.header {
+	float: right;
+	width: 100%;
+
+}
+
+
+.columnVersuch {
+	float: right;
+	width: 100%;
+	
+}
 
 .boxnavigation {
 	float: left;
@@ -86,3 +117,10 @@ font-size: 1.5em;
 	margin-left: 2em;
 	float: right;
 }
+
+
+.mondrian_menue {
+	float: left;
+	width: 50%;
+}
+
