@@ -5,12 +5,16 @@ margin: 3em;
 background-color: #F5F5F5; 
 }
 
+
+header {
+	display: inline;
+}
+
 nav	{
 font-size: 0.7em;
-text-align: right;
+float: right;
 font-family: 'Catamaran', sans-serif;
-flex: 1 100%;
-clear: right;
+
 margin: 1em;
 }
 
@@ -34,6 +38,7 @@ text-decoration: none;
 color: #181818 ;
 font-family: 'Catamaran', sans-serif;
 letter-spacing: 0.3;
+
 }
 
 footer {
@@ -46,10 +51,12 @@ font-size: 0.7em;
 flex: 1 100%;
 }
 
+
 #logo img	{
-float: left;
+
 max-width: 75%;
 max-height: 75%;
+float: left;
 }
 
 
@@ -67,3 +74,15 @@ font-size: 1.5em;
 	float: left;
 	margin: 2em 0;
 	}
+
+
+.boxnavigation {
+	float: left;
+	width: 50%
+
+}
+
+.menuepunkt {
+	margin-left: 2em;
+	float: right;
+}
