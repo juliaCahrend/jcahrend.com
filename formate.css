@@ -1,18 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
 
-
-body		{ 
-border: none;
-max-width: 100%;
-margin: 3em 14em;
-}
-
-header {
-display: inline;
-}
 
 nav	{
 font-size: 0.8em;
@@ -41,31 +30,12 @@ color: #181818 ;
 font-family: 'Catamaran', sans-serif;
 letter-spacing: 0.3;
 }
-footer {
-position: absolute; 
-text-align: center;
-bottom: 0;  
-
-list-style-type: none;
-font-size: 0.7em;
-
-}
 
 
-#logo img	{
-
-max-width: 75%;
-max-height: 75%;
-float: left;
-}
 
 
-#liste li {
-list-style-type: none;
-clear: both;
-text-align: center; 
-font-size: 1.5em;
-}
+
+
 
 
 #halbesbild img {
@@ -104,17 +74,100 @@ font-size: 1.5em;
 	float: right;
 }
 
-.haelfte {
-	float: left;
-	width: 50%;
+
+.flex-header {
+	display: flex;
+	
 }
 
-.text_haelfte {
-	margin-left: 10%;
-	width: 40%;
-	float: left;
+.flex-item {
+
+	
+	
 }
 
-.credits {
-	font-size: 0.8em;
+.flex-body {
+	display:flex;
+
+	}
+
+.flex-index {
+	
+	display: flex;
+
+	
+}
+
+.logo {
+	
+	flex-basis: 100px;
+}
+
+.nav {
+	flex-basis: 100%;
+	text-align: right;
+}
+
+
+.img {
+	
+	flex-basis: 50%;
+	
+}
+
+.text {
+	
+	flex-basis: 25%;
+	
+}
+
+.liste {
+	
+	justify-content: center;
+	align-content: : center;
+	display: flex;
+	font-size: 1.5em;
+	flex-basis: 100%;
+	text-align: center;
+
+}
+
+
+img {
+	width: 100%
+}
+
+
+
+
+.wrapper {
+	
+	display: flex;
+	flex: 1;
+	flex-basis: 50%;
+
+	
+}
+
+.email {
+
+	font-size: 0.7em;
+}
+
+li {
+	list-style-type: none;
+}
+
+.site { 
+	border: none;
+	
+	margin: 3em 10em;
+	min-height: 90vh;
+	flex-direction: column;
+	display: flex;	
+
+}
+
+footer {
+	text-align: center;
 }
