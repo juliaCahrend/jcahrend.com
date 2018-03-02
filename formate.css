@@ -1,27 +1,25 @@
 body		{ 
 border: none;
 max-width: 100%;
-margin: 3em 10em;
+margin: 3em 14em;
 }
 
 header {
-	display: inline;
+display: inline;
 }
 
 nav	{
-font-size: 0.7em;
+font-size: 0.8em;
 float: right;
 font-family: 'Catamaran', sans-serif;
 
 margin: 1em;
 }
 
-
 p	{
 font-family: sans-serif;
 line-height: 1.5em; 
 font-family: 'Anaheim', sans-serif;
-
 }
 
 h1, h2, h3 {
@@ -36,7 +34,6 @@ text-decoration: none;
 color: #181818 ;
 font-family: 'Catamaran', sans-serif;
 letter-spacing: 0.3;
-
 }
 
 footer {
@@ -66,12 +63,10 @@ font-size: 1.5em;
 }
 
 
-#menue_trans img {
+#halbesbild img {
 		float: left;
 		width: 100%;
-	
 }
-
 
 #player iframe {
 	float: right;
@@ -81,34 +76,22 @@ font-size: 1.5em;
 .player {
 
 	width: 100%;
-
 }
-
-.columne2 {
-	width: 50%;
-	display: inline;
-	box-sizing: border-box;
-	float: left;
-	margin: 2em 0;
-	}
 
 .header {
 	float: right;
 	width: 100%;
-
 }
 
-
-.columnVersuch {
+.column2 {
 	float: right;
 	width: 100%;
-	
+	margin-bottom: 5em;	
 }
 
 .boxnavigation {
 	float: left;
 	width: 50%
-
 }
 
 .menuepunkt {
@@ -116,9 +99,17 @@ font-size: 1.5em;
 	float: right;
 }
 
-
-.mondrian_menue {
+.haelfte {
 	float: left;
 	width: 50%;
 }
 
+.text_haelfte {
+	margin-left: 10%;
+	width: 40%;
+	float: left;
+}
+
+.credits {
+	font-size: 0.8em;
+}
