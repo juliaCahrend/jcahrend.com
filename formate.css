@@ -29,7 +29,12 @@ letter-spacing: 0.3;
 }
 
 img {
-	width: 100%
+	width: 100%;
+
+}
+
+video {
+	width: 100%;
 }
 
 li {
@@ -61,6 +66,8 @@ footer {
 }
 
 .flex-item {
+	
+
 }
 
 .flex-body {
@@ -73,6 +80,7 @@ footer {
 
 .logo {
 	flex-basis: 100px;
+
 }
 
 .nav {
@@ -118,4 +126,50 @@ footer {
 
 .video {
 	width: 100%;
+}
+
+.element_right {
+	display: flex; 
+	
+}
+
+.right {
+	display: flex;
+	flex-basis: 75%;
+}
+
+.blank {
+	flex-basis: 25%;
+	
+}
+
+
+.mockup2 {
+
+	
+}
+
+.formate {
+	
+	
+}
+
+.element_left {
+	display: flex;
+}
+
+.left {
+	display: flex;
+	flex-basis: 75%;
+}
+
+.farbverwendung {
+	
+	flex-basis: 50%;
+	text-align: left;
+}
+
+.mockup3 {
+	flex-basis: 50%;
+	text-align: left;
 }
