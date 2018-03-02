@@ -1,20 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-
+}
 
 nav	{
-font-size: 0.8em;
-float: right;
-font-family: 'Catamaran', sans-serif;
-
-margin: 1em;
+	font-size: 0.8em;
+	font-family: 'Catamaran', sans-serif;
 }
 
 p	{
-font-family: sans-serif;
-line-height: 1.5em; 
-font-family: 'Anaheim', sans-serif;
+	font-family: sans-serif;
+	line-height: 1.5em; 
+	font-family: 'Anaheim', sans-serif;
 }
 
 h1, h2, h3 {
@@ -31,43 +28,27 @@ font-family: 'Catamaran', sans-serif;
 letter-spacing: 0.3;
 }
 
-
-
-
-
-
-
-
-#halbesbild img {
-		float: left;
-		width: 100%;
+img {
+	width: 100%
 }
 
-#player iframe {
-	float: right;
-	width: 100%;
+li {
+	list-style-type: none;
 }
 
-.player {
-
-	width: 100%;
+footer {
+	text-align: center;
+	margin: 4em;
 }
 
-.header {
-	float: right;
-	width: 100%;
+.site { 
+	border: none;
+	margin: 3em 10em;
+	min-height: 90vh;
+	flex-direction: column;
+	display: flex;	
 }
 
-.column2 {
-	float: right;
-	width: 100%;
-	margin-bottom: 5em;	
-}
-
-.boxnavigation {
-	float: left;
-	width: 50%
-}
 
 .menuepunkt {
 	margin-left: 2em;
@@ -77,29 +58,20 @@ letter-spacing: 0.3;
 
 .flex-header {
 	display: flex;
-	
 }
 
 .flex-item {
-
-	
-	
 }
 
 .flex-body {
 	display:flex;
-
-	}
+}
 
 .flex-index {
-	
 	display: flex;
-
-	
 }
 
 .logo {
-	
 	flex-basis: 100px;
 }
 
@@ -110,64 +82,40 @@ letter-spacing: 0.3;
 
 
 .img {
-	
 	flex-basis: 50%;
-	
+}
+
+.menue_transition {
+	flex-basis: 50%;
 }
 
 .text {
-	
 	flex-basis: 25%;
-	
 }
 
 .liste {
-	
 	justify-content: center;
 	align-content: : center;
 	display: flex;
 	font-size: 1.5em;
 	flex-basis: 100%;
 	text-align: center;
-
 }
-
-
-img {
-	width: 100%
-}
-
-
-
 
 .wrapper {
-	
 	display: flex;
 	flex: 1;
 	flex-basis: 50%;
-
-	
 }
 
 .email {
-
 	font-size: 0.7em;
 }
 
-li {
-	list-style-type: none;
-}
-
-.site { 
-	border: none;
-	
-	margin: 3em 10em;
-	min-height: 90vh;
-	flex-direction: column;
-	display: flex;	
-
-}
-
-footer {
+.flex-video {
 	text-align: center;
+}
+
+.video {
+	width: 100%;
 }
