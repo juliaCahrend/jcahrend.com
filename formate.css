@@ -4,7 +4,7 @@
 }
 
 nav	{
-	font-size: 0.8em;
+	font-size: 1em;
 	font-family: 'Catamaran', sans-serif;
 }
 
@@ -44,6 +44,7 @@ li {
 footer {
 	text-align: center;
 	margin: 4em;
+	font-size: 0.8em;
 }
 
 .site { 
