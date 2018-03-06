@@ -197,8 +197,13 @@ footer {
 
 .between {
 	flex-basis: 5em;
+
 }
 
+
+.img_klein {
+	flex-basis: 25%;
+}
 /* typografie vita */
 
 .vita_text {
