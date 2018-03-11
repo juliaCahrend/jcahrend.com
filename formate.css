@@ -11,12 +11,14 @@ nav	{
 p	{
 	line-height: 1.5em; 
 	font-family: 'Anaheim', sans-serif;
+	hyphens: auto;
 }
 
 h1, h2, h3 {
 font-family: 'Catamaran', sans-serif;
 letter-spacing: 0.2;	
 color: #181818;
+margin-bottom: 1em;
 }
 
 a 	{
@@ -99,11 +101,15 @@ footer {
 	flex-basis: 50%;
 }
 
+.text3 {
+	flex-basis: 40%;
+}
+
 .liste {
 	justify-content: center;
-	align-content: : center;
+	align-content: center;
 	display: flex;
-	font-size: 1.5em;
+	font-size: 1.8em;
 	flex-basis: 100%;
 	text-align: center;
 }
@@ -140,6 +146,11 @@ footer {
 	
 }
 
+.blank2 {
+	flex-basis: 10%;
+	
+}
+
 .left {
 	display: flex;
 	flex-basis: 50%;
@@ -160,8 +171,8 @@ footer {
 .column1 {
 	display: flex;
 	margin-bottom: 6em;
-
 }
+
 
 .column2 {
 	display: flex;
@@ -198,11 +209,9 @@ footer {
 	flex-basis: 5em;
 }
 
-
 .img_klein {
 	flex-basis: 25%;
 }
-
 
 /* typografie vita */
 
@@ -216,7 +225,7 @@ footer {
 }
 
 .impressum {
-	font-size: 0.7em;
+font-size: 0.7em;
  margin-top: 6em;
  text-align: center; 
 }
@@ -226,12 +235,23 @@ ul {
 	margin-bottom: 4em;
 }
 
- /* mediaquerrie, brakpiont auflösung laptop */
+/*typografie globale klassen */
+
+.credits {
+	font-size: 0.8em;
+	font-family: 'Catamaran', sans-serif;
+	margin-top: 1em;
+}
+
+ /* mediaquerrie, breakpiont auflösung laptop */
 @media (max-width: 1920em) {
   
   .site { 
 	margin: 3em 5em;
-	min-height: 90vh;
-
 }
+
+.text {
+	flex-basis: 35%;
+}
+  
 }
