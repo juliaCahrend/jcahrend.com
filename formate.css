@@ -243,7 +243,7 @@ ul {
 	margin-top: 1em;
 }
 
- /* mediaquerrie, brakpiont auflösung laptop */
+ /* mediaquerrie, breakpiont auflösung laptop */
 @media (max-width: 1920em) {
   
   .site { 
@@ -253,4 +253,5 @@ ul {
 .text {
 	flex-basis: 35%;
 }
+  
 }
