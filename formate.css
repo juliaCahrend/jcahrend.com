@@ -47,12 +47,6 @@ video {
 	width: 100%;
 }
 
-.video {
-	text-align: center;
-	margin-bottom:  6em;
-	
-}
-
 .responsive-video iframe {
 position: absolute;
 top: 0;
@@ -65,11 +59,10 @@ height: 100%;
 position: relative;
 padding-bottom: 56.25%; /* Default for 1600x900 videos 16:9 ratio*/
 padding-top: 0px;
-height: 0;
+height: auto;
 overflow: hidden;
 margin-bottom: 6em;
 }
-
 
 .site { 
 	border: none;
@@ -141,9 +134,12 @@ margin-bottom: 6em;
 	font-size: 0.7em;
 }
 
-
-
 .right {
+	display: flex;
+	flex-basis: 50%;
+}
+
+.left {
 	display: flex;
 	flex-basis: 50%;
 }
@@ -161,10 +157,6 @@ margin-bottom: 6em;
 	flex-basis: 10%;	
 }
 
-.left {
-	display: flex;
-	flex-basis: 50%;
-}
 
 .totale {
 	display: flex;
@@ -315,23 +307,20 @@ p {
 	flex-basis: 100%;
 }
 
-video {
-	width: 100%;
-	
-}
-
-.video {
-	margin-bottom: 2em;
-	width: 300px;
-	height: 200px;
-	align-items: center;
-}
-
 .totale {
 	margin-bottom: 2em;
+}
+
+.right {
+	flex-direction: column;
+}
+
+.left {
+	flex-direction: column;
 }
 
 .nosmartphone {
 	display: none;
 	}
 }
+
